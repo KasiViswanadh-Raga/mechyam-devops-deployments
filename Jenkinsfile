@@ -66,8 +66,8 @@ pipeline {
         success {
             echo "CI/CD Pipeline executed successfully ✅"
         }
-        always {
-            cleanWs()
-        }
+        //always {
+        //    cleanWs()
+        //}
     }
 }
