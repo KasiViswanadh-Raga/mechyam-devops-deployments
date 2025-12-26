@@ -55,7 +55,7 @@ pipeline {
                 sh '''
                 docker rm -f backend frontend || true
 
-                docker run -d -p 8080:8080 --name backend mechyam-backend
+                docker run -d -p 8081:8080 --name backend mechyam-backend
                 docker run -d -p 80:80 --name frontend mechyam-frontend
                 '''
             }
