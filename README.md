@@ -1,12 +1,17 @@
 🚀 DevOps + AWS Deployment Task – Mechyam Application
-📌 Task Objective
+
+📌 Task Objective:
+
 The objective of this task is to deploy a Frontend (React.js) and Backend (Spring Boot) application on AWS EC2 using Docker and Jenkins CI/CD pipeline, ensuring automated build and deployment.
+
 🔗 Given Source Code
+
 Backend (Spring Boot)
 https://github.com/nebulytixtechnologies-web/Mechyam-Backend.git
 Frontend (React.js)
 https://github.com/Tejassoni05/frontend-mechyam.git
-🛠 Tools & Technologies Used
+
+🛠 Tools & Technologies Used:
 AWS EC2 (Free Tier)
 Docker & Docker Compose
 Jenkins (CI/CD)
@@ -14,7 +19,9 @@ Git & GitHub
 Spring Boot (Backend)
 React.js (Frontend)
 Nginx (Frontend Web Server)
-🧱 Architecture Overview
+
+🧱 Architecture Overview:
+
 Jenkins is installed on an AWS EC2 instance
 Jenkins pipeline automates:
 Code checkout
@@ -77,7 +84,9 @@ Docker image created for frontend and served via Nginx
 Old containers stopped and removed
 New containers started with updated images
 Applications deployed automatically on EC2
+
 *Applicatin Access
+
 .Frontend Application
 http://3.239.242.21
 .Backend Application:
