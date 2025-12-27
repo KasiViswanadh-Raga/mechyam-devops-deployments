@@ -69,3 +69,11 @@ Docker image created for frontend and served via Nginx
 Old containers stopped and removed
 New containers started with updated images
 Applications deployed automatically on EC2
+*Applicatin Access
+.Frontend Application
+http://3.239.242.21
+.Backend Application:
+http://3.239.242.21:8081
+*Screenshots
+Jenkins pipeline-Success
+![Jenkins pipeline-Success](Jenkins pipeline-success-screenshot1.png)
