@@ -77,3 +77,4 @@ http://3.239.242.21:8081
 *Screenshots
 Jenkins pipeline-Success
 ![Jenkins pipeline-Success](Jenkins pipeline-success-screenshot1.png)
+![Jenkins pipeline-Success](Jenkins-pipeline-success-screenshot2.png)
